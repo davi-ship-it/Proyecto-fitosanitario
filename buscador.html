@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Consultar Tratamientos</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body class="bg-light">
+  <div class="container py-5">
+    <h1 class="text-center mb-4">Consultar Tratamientos</h1>
+
+    <!-- Sección de búsqueda -->
+    <div class="row justify-content-center align-items-center mb-4 g-2">
+      <div class="col-md-6 col-lg-4">
+        <div class="input-group">
+          <input type="text" class="form-control search-input" placeholder="Buscar por lote...">
+          <button class="btn btn-success">
+            <img src="https://cdn-icons-png.flaticon.com/512/751/751463.png" alt="Buscar" width="20">
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="row justify-content-center mb-4">
+      <div class="col-md-6 col-lg-4 d-flex justify-content-around">
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="status" id="activo" checked>
+          <label class="form-check-label" for="activo">Activo</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="status" id="finalizado">
+          <label class="form-check-label" for="finalizado">Finalizado</label>
+        </div>
+      </div>
+    </div>
+
+    <!-- Grid de tarjetas -->
+    <div class="row1">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <!-- Las tarjetas se generan aquí mediante JavaScript -->
+        </div>
+      </div>
+    
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="./js/Datos.js"></script>
+</body>
+</html>

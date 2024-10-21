@@ -1,0 +1,107 @@
+/* Colores personalizados */
+.bg-light-green {
+    background-color: #e8f5e9;
+  }
+  
+  .custom-select {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    text-align: center;
+  }
+  
+  .custom-input {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .btn-add {
+    background-color: #388e3c;
+    color: white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .custom-btn {
+    background-color: #388e3c;
+    border: none;
+    border-radius: 25px;
+    width: 150px;
+  }
+  
+  .image-wrapper img {
+    border: 5px solid #4caf50;
+    border-radius: 15px;
+  }
+
+
+
+  /* buscador*/
+
+/* Estilo del cuerpo */
+/* Estilo del cuerpo */
+body {
+    background: linear-gradient(135deg, #e3ffe7, #d9e7ff);
+  }
+  
+  /* Input de búsqueda */
+  .search-input {
+    height: 50px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  
+ .btn {
+    height: 50px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  
+  /* Estilo de las tarjetas */
+  .card {
+    min-height: 100px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+
+  }
+  
+  .card img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+  }
+  
+  .card .badge {
+    padding: 5px 10px;
+    font-size: 0.75rem;
+    border-radius: 10px 0 10px 0;
+  
+  
+ 
+    
+  }
+  
+  .row1 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* 3 columnas maximo */
+    gap: 16px; /* Espacio entre tarjetas */
+    margin: 20px;
+  }
+  
+  .card {
+    background-color: #f1f1f1;
+    padding: 20px;
+    border: 1px solid #ddd;
+    text-align: center;
+    border-radius: 8px;
+  }
+  
